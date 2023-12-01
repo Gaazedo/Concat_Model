@@ -20,4 +20,4 @@ Visando um melhor desempenho e acurácia, o modelo ResNet-50 se destaca pela sua
 Na arquitetura CNN foram adicionadas camadas separadamente, sendo a primeira, uma divisão de filtros para a transformação de imagens, a segunda sendo voltada ao pooling para redução da resolução, a utilização de Dropout para redução de overfitting, uma camada Flatten para nivelamento e camadas densas.
 Com a utilização destas duas arquiteturas há uma concatenação dos modelos através da biblioteca ‘fastai’ disponibilizada pelo PyTorch, realizando a junção da arquitetura CNN (modelo tabular) juntamente ao ResNet-50, tornando-se um modelo de avaliação de precisão na detecção e classificação das classes presentes.
 
-![](https://drive.google.com/file/d/1r2gLM49X831XLOZ6VSx5joawWpbBC2W7/view?usp=sharing)
+![](https://github.com/Gaazedo/Reconhecimento-e-analise-de-doencas-na-pele-com-uso-de-machine-learning/blob/main/arquitetura_projeto.jpg?raw=true)
